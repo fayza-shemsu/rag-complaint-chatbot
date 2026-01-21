@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+
+# Large data
+data/raw/*.csv
+data/processed/*.csv
+
+# Vector stores
+vector_store/
